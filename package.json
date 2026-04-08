@@ -1,5 +1,16 @@
 {
-  "devDependencies": {
-    "@vitejs/plugin-react": "^6.0.1"
+  "name": "analdex-warroom",
+  "version": "2.0.0",
+  "description": "War Room del Importador - XVI Foro Nacional de Importadores",
+  "private": true,
+  "scripts": {
+    "dev": "cd warroom && npm run dev",
+    "build": "cd warroom && npm run build",
+    "preview": "cd warroom && npm run preview",
+    "install:app": "cd warroom && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   }
 }
